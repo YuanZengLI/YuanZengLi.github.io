@@ -599,9 +599,7 @@ footer.sticky-bottom {
 .projects .grid-sizer,
 .projects .grid-item {
     width: 28.5%;
-    /* margin: 0 auto; */
     margin-bottom: 10px;
-    /* margin-left: 50px; */
 }
 
 .projects h2.category {
