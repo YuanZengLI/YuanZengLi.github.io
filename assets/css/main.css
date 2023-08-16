@@ -1459,3 +1459,48 @@ footer.fixed-bottom .container {
     padding: 1.25rem;
     max-height: 150px;
 }
+
+.paper-image {
+    width: 150px;
+}
+
+.news-date {
+    font-weight: bold;
+}
+
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-authors {
+    font-style: italic;
+}
+
+.col-sm-8 {
+    margin-top: 5px;
+}
+
+.publications-item {
+    padding: 15px 15px 1px 15p
+}
+
+.publications-item .link a {
+    margin-right: 5px;
+}
+
+.publication-btn {
+    color: #ff6758 !important;
+}
+
+/*
+.publications-item:hover{
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+    width: 105%;
+    font-size: 17px;
+}
+*/
+
+.col-sm-5,
+.col-sm-8 {
+    margin: auto 0;
+}
