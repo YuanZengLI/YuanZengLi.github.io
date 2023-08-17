@@ -8,34 +8,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yuan Zeng(曾媛)</title>
     <meta name="author" content="Yuan Zeng">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. ">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+    <meta name="description"
+        content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
+        integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
     <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+        integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"
+        integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media=""
+        id="highlight_theme_light">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
     <link rel="canonical" href="https://github.com/YuanZengLI">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css"
+        media="none" id="highlight_theme_dark">
     <script src="/assets/js/theme.js?96d6b3e1c3604aca8b6134c7afdd5db6"></script>
     <script src="/assets/js/dark_mode.js?9b17307bb950ffa2e34be0227f53558f"></script>
     <style>
         /* * {
             font-family: 'Times New Roman', Times, serif;
         } */
-        
+
         .fix-header {
             margin: 0 auto !important;
         }
-        
+
         .header-container {
             display: flex;
             flex-direction: row;
         }
-        
+
         .about-container {
             display: flex;
             flex-direction: row;
@@ -44,41 +52,47 @@
             box-shadow: -5px 8px 5px 1px rgba(0, 0, 0, .25);
             */
         }
-        
+
         .about-container.message-container {
             display: flex;
             flex-direction: column;
             margin: auto 50px;
         }
-        
+
         .about-container .url-container {
             display: flex;
         }
-        
+
         .footer-bottom {
             width: 100%;
         }
-        
+
         .middle-container {
             padding: 20px 20px 0px 20px;
             border-radius: 5px;
         }
 
-        .col-sm-3{
+        .col-sm-3 {
             max-width: 22% !important;
         }
 
-        .middle-news{
+        .middle-news {
             margin-top: 20px;
         }
 
-        .news b{
+        .news b {
             font-style: italic;
             font-weight: bold !important;
         }
 
-        .img-container{
+        .img-container {
             margin-left: 20px;
+        }
+
+        .publications ol.bibliography {
+            list-style: none;
+            padding: 0px 20px 10px 20px !important;
+            margin-top: 0;
         }
     </style>
 </head>
@@ -86,11 +100,13 @@
 <body class="fixed-top-nav">
     <header class="fix-header">
         <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-            <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span
+            <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button"
+                    data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span
                         class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span
                         class="icon-bar bottom-bar"></span> </button>
                 <div class="collapse navbar-collapse text-right" id="navbarNav">
-                    <div class="header-img"><img src="assets/img/lego.jpg" style="width: 150px;"/></div>
+                    <div class="header-img"><img src="assets/img/lego.jpg" style="width: 150px;" /></div>
                     <ul class="navbar-nav ml-auto flex-nowrap">
                         <li class="nav-item active"> <a class="nav-link" href="/">About<span
                                     class="sr-only">(current)</span></a> </li>
@@ -100,9 +116,13 @@
                         <li class="nav-item "> <a class="nav-link" href="/repositories/">Repositories</a> </li>
                         <li class="nav-item "> <a class="nav-link" href="/cv/">Details</a> </li>
                         <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching</a> </li>
-                        <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Submenus</a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="/publications/">publications</a>
-                                <div class="dropdown-divider"></div> <a class="dropdown-item" href="/projects/">Projects</a>
+                        <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Submenus</a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a
+                                    class="dropdown-item" href="/publications/">publications</a>
+                                <div class="dropdown-divider"></div> <a class="dropdown-item"
+                                    href="/projects/">Projects</a>
                             </div>
                         </li>
                         <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i
@@ -119,16 +139,25 @@
             <div class="message-container">
                 <header class="post-header">
                     <h2 class="post-title"> <span class="font-weight-bold">Yuan</span> Zeng </h2>
-                    <p class="desc"> Research Associate in <a href="#">Southern University of Science and Technology</a>, Shenzhen, China </p>
+                    <p class="desc"> Research Associate in <a href="#">Southern University of Science and
+                            Technology</a>, Shenzhen, China </p>
                 </header>
                 <!-- <p class="text-light-muted mt-2"> I'm a research associate at <a href="https://www.sustech.edu.cn/">Southern University of Science and Technology.</a> In 2010, I received my master's degree in signal processing from the <a href="https://dianzi.nwpu.edu.cn/">School of Electronic Information of Northwestern
                         Polytechnical University.</a> In 2015, I received my doctorate degree in speech signal processing from <a href="https://www.tudelft.nl/en/">Delft University of Technology.</a> From 2015 to 2018, I worked as a researcher in machine
                     learning and image restoration in Delft University of Technology. Since 2018, she has been engaged in the research work of machine learning and signal detection and repair in Southern University of Science and Technology. and is committed
                     to solving practical problems by combining traditional signal processing methods and machine learning methods.</p> -->
-                <p class="text-light-muted mt-2" style="text-align: justify ">She received her Ph. D degree in Electrical Engineering from the <a href="https://www.tudelft.nl/en/">Delft University of Technology</a>, Dleft, The Netherlands, in 2015. From 2015 to 2018, she was a Postdoc Researcher at Computer Vision Lab, Delft University of Technology. Since 2018, she is a research associate at <a href="https://www.sustech.edu.cn/">Southern University of Science and Technology</a>. Her main research interests lie in Computer Vision and Communication Signal Processing, including Image Inpainting/Synthesis, Signal/Object Detection and Cooperative Sensing/Distributed Signal Processing, etc.</p>
+                <p class="text-light-muted mt-2" style="text-align: justify ">She received her Ph. D degree in
+                    Electrical Engineering from the <a href="https://www.tudelft.nl/en/">Delft University of
+                        Technology</a>, Dleft, The Netherlands, in 2015. From 2015 to 2018, she was a Postdoc Researcher
+                    at Computer Vision Lab, Delft University of Technology. Since 2018, she is a research associate at
+                    <a href="https://www.sustech.edu.cn/">Southern University of Science and Technology</a>. Her main
+                    research interests lie in Computer Vision and Communication Signal Processing, including Image
+                    Inpainting/Synthesis, Signal/Object Detection and Cooperative Sensing/Distributed Signal Processing,
+                    etc.</p>
                 <div class="url-container">
                     <a href="https://github.com/YuanZengLI" style="margin-right: 10px;">[GitHub]</a>
-                    <a href="https://scholar.google.com/citations?user=9JIiC2EAAAAJ&hl=zh-CN&oi=sra" style="margin-right: 10px;">[Google
+                    <a href="https://scholar.google.com/citations?user=9JIiC2EAAAAJ&hl=zh-CN&oi=sra"
+                        style="margin-right: 10px;">[Google
                         Scholar]</a>
                     <a href="https://eee.sustech.edu.cn/?view=5661&jsid=16">[HomePage]</a>
                 </div>
@@ -189,35 +218,55 @@
                     <table class="table table-sm table-borderless">
                         <tr>
                             <th scope="row">06/2023</th>
-                            <td> One paper was accepted by <b>SPAWC</b>. 
-                                <img class="emoji" title=":smile:"
-                                    alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> </td>
+                            <td> One paper was accepted by <b>SPAWC</b>.
+                                <img class="emoji" title=":smile:" alt=":smile:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"
+                                    height="20" width="20">
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">05/2023</th>
                             <!-- <td> <a class="news-title" href="/news/announcement_2/">A long announcement with
                                     details</a> </td> -->
-                            <td> One paper was accepted by <b>TITS</b>. <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td> 
+                            <td> One paper was accepted by <b>TITS</b>. <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                         <tr>
                             <th scope="row">06/2022</th>
-                            <td> One paper was accepted by <b>TWC</b>. <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td> 
+                            <td> One paper was accepted by <b>TWC</b>. <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                         <tr>
                             <th scope="row">02/2022</th>
-                            <td> One paper was accepted by <b>WCL</b>. <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td> 
+                            <td> One paper was accepted by <b>WCL</b>. <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                         <tr>
                             <th scope="row">09/2021</th>
-                            <td> One paper was accepted by <b>BMVC</b>  <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td>
+                            <td> One paper was accepted by <b>BMVC</b> <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                         <tr>
                             <th scope="row">06/2021</th>
-                            <td> One paper was accepted by <b>PR</b> <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td> 
+                            <td> One paper was accepted by <b>PR</b> <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                         <tr>
                             <th scope="row">06/2021</th>
-                            <td> one paper was accepted by <b>ICC</b>. <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> </td> 
+                            <td> one paper was accepted by <b>ICC</b>. <img class="emoji" title=":sparkles:"
+                                    alt=":sparkles:"
+                                    src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png"
+                                    height="20" width="20"> </td>
                         </tr>
                     </table>
                 </div>
@@ -247,8 +296,9 @@
             </div>
         </div>
 
-        <div class="middle-publication mt-3">
-            <h3 style="margin-bottom: 0;"><a href="/publications/" style="color: inherit;">Selected publications</a></h3>
+        <div class="middle-publication mt-4">
+            <h3 style="margin-bottom: 0;"><a href="/publications/" style="color: inherit;">Selected publications</a>
+            </h3>
             <div class="publications" style="margin-top: 1rem;">
                 <h2 class="bibliography">2023</h2>
                 <ol class="bibliography">
@@ -257,8 +307,7 @@
                             <div class="col-sm-5 preview">
                                 <img src="/assets/img/collaborative.png" style="height: 140px;"
                                     class="preview z-depth-1 rounded" width="auto" height="auto" alt="mvdr.png"
-                                    data-zoomable=""
-                                    onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                                    data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                             </div>
                             <div id="PhysRev.47.777" class="col-sm-8">
                                 <div class='paper-title'>
@@ -269,14 +318,16 @@
                                     IEEE Transactions on Intelligent Transportation Systems
                                 </div>
                                 <div class='paper-authors'>
-                                    Junyong Wang, <b style="font-weight: bold; font-style: italic;">Yuan Zeng</b>, Yi Gong                                        
+                                    Junyong Wang, <b style="font-weight: bold; font-style: italic;">Yuan Zeng</b>, Yi
+                                    Gong
                                 </div>
                                 <div class="periodical"> </div>
                                 <div class="periodical"> </div>
-                                <div class="links"> 
-                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10122468" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> 
-                                    <a href="/assets/pdf/paper.pdf" class="btn btn-sm z-depth-0"
-                                        role="button">PDF</a>
+                                <div class="links">
+                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10122468"
+                                        class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener"
+                                        target="_blank">HTML</a>
+                                    <a href="/assets/pdf/paper.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
                                 </div>
                                 <!-- <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TITS.2023.3272027"></span> <span class="__dimensions_badge_embed__" data-doi="10.1109/TITS.2023.3272027"
                                         data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> -->
@@ -286,23 +337,35 @@
                 </ol>
             </div>
         </div>
-        <div class="social mt2">
-            <div class="contact-icons"> <a href="mailto:%7A%65%6E%67%79%33@%73%75%73%74%65%63%68.%65%64%75.%63%6E" title="email"><i class="fas fa-envelope"></i></a> <a href="/feed.xml" title="RSS Feed"><i
+        <div class="social mt-2">
+            <div class="contact-icons"> <a href="mailto:%7A%65%6E%67%79%33@%73%75%73%74%65%63%68.%65%64%75.%63%6E"
+                    title="email"><i class="fas fa-envelope"></i></a> <a href="/feed.xml" title="RSS Feed"><i
                         class="fas fa-rss-square"></i></a> </div>
-            <div class="contact-note"> You can even add a little note about which of these is the best way to reach you. </div>
+            <div class="contact-note"> You can even add a little note about which of these is the best way to reach you.
+            </div>
         </div>
     </div>
     </div>
     <footer class="fixed-bottom">
-        <div class="container mt-0"> © Copyright 2023 Yuan Zeng. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>            theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div>
+        <div class="container mt-0"> © Copyright 2023 Yuan Zeng. Powered by <a href="https://jekyllrb.com/"
+                target="_blank" rel="external nofollow noopener">Jekyll</a> with <a
+                href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener"
+                target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank"
+                rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com"
+                target="_blank" rel="external nofollow noopener">Unsplash</a>. </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
+        integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js"
+        integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
     <script defer src="/assets/js/zoom.js"></script>
     <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
     <script src="/assets/js/no_defer.js?d633890033921b33e0ceb13d22340a9c"></script>
@@ -317,11 +380,12 @@
             }
         };
     </script>
-    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+    <script defer type="text/javascript" id="MathJax-script"
+        src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
     <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript">
         function progressBarSetup() {
-            "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function() {
+            "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function () {
                 progressBar.attr({
                     value: getCurrentScrollPosition()
                 })
@@ -360,7 +424,7 @@
             return getCurrentScrollPosition() / getDistanceToScroll() * 100
         }
         const progressBar = $("#progress");
-        window.onload = function() {
+        window.onload = function () {
             setTimeout(progressBarSetup, 50)
         };
     </script>
