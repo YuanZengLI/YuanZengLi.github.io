@@ -420,6 +420,9 @@ blockquote {
 footer.footer-bottom {
     background-color: var(--global-footer-bg-color);
     font-size: 0.75rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer.footer-bottom .container {
@@ -1450,6 +1453,16 @@ footer.fixed-bottom .container {
     margin: 0 auto;
     text-align: center;
     background-color: var(--global-footer-bg-color);
+}
+
+
+footer.fixed-bottom a {
+    color: var(--global-footer-link-color);
+}
+
+footer.fixed-bottom a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
 }
 
 .card-body {
