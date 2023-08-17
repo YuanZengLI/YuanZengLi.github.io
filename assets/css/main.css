@@ -1505,3 +1505,41 @@ footer.fixed-bottom .container {
 .col-sm-8 {
     margin: auto 0;
 }
+
+
+.img-show {
+    width: 100% !important;
+}
+
+.paper-image {
+    width: 150px;
+}
+
+.news-date {
+    font-weight: bold;
+}
+
+.paper-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.paper-authors {
+    font-style: italic;
+}
+
+.col-sm-8 {
+    margin-top: 5px;
+}
+
+.publications-item {
+    padding: 15px 15px 1px 15p
+}
+
+.publications-item .link a {
+    margin-right: 5px;
+}
+
+.publication-btn {
+    color: #ff6758 !important;
+}
